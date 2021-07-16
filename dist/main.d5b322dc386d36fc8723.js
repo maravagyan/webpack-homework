@@ -1,0 +1,1 @@
+(()=>{let e=(new Date).getFullYear(),t=new class{constructor(e,t){this.name=e,this.year=t}age(e){return e-this.year}}("Ford",2014);document.getElementById("test").innerHTML="My car is "+t.age(e)+" years old."})();
